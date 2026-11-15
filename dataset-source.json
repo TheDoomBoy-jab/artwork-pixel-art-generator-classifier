@@ -1,0 +1,6 @@
+{
+  "dataset": "huggan/facades",
+  "source": "https://huggingface.co/datasets/huggan/facades",
+  "selection": "first 256 paired rows; exploratory resplit of upstream training data",
+  "source_sha256": "02ec47ed44d3d8c108ed8ccc28180c2018ad02a3dca424aeb65581ddeef271af"
+}

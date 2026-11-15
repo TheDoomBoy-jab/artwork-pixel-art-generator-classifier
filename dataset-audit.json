@@ -1,0 +1,47 @@
+{
+  "collections": {
+    "sketches": [
+      {
+        "file": "art-institute-of-chicago-C6DiSGOFCxI-unsplash.jpg",
+        "sha256": "287b38e48fc60bbfc445e2a58c1dea0c57c4d5a90c481a87dfa9550a2dc988ff"
+      },
+      {
+        "file": "chris-curry-wvYdfoWPaQM-unsplash.jpg",
+        "sha256": "91772484df52d87ff0d9b2aa7ceb97aa3b8c2e2a802edaa905023d2482a46b55"
+      },
+      {
+        "file": "dhanya-a-v-zdiMKVb5fl0-unsplash.jpg",
+        "sha256": "65e92cd6d41db6ca88173273a462c96f109d51d45a1af56efa79660cfc198302"
+      },
+      {
+        "file": "pexels-liana-horodetska-5077625-7608654.jpg",
+        "sha256": "8b61aeb7ef53c5d1c56f7d892220383e64fe1ad28c17485b0c0742988897e961"
+      }
+    ],
+    "pixel_art": [
+      {
+        "file": "26802.jpg",
+        "sha256": "c0c3a3dabf6085f8c9fd7b6407c5ff061eb4b48f78a6db34c15ab2145d089d06"
+      },
+      {
+        "file": "6588026.jpg",
+        "sha256": "5d64ac155ed4bb9ad3908ae82bc954b6756fd5ae8363c3c820c264d66422a90f"
+      },
+      {
+        "file": "ebd3d78e-94a7-470c-9095-84b8f1e5145c.jpg",
+        "sha256": "80af06b3762b012bda586ec8ba4f3edc20033e816aba2648227a991594ce48c5"
+      },
+      {
+        "file": "pexels-piotrbaranowski-22845394.jpg",
+        "sha256": "b3a20647d5c4c734f66e618caaf86145c1d591069d1c6d4000544d1b4208763f"
+      }
+    ]
+  },
+  "counts": {
+    "sketches": 4,
+    "pixel_art": 4
+  },
+  "matching_stems": [],
+  "paired_training_verified": false,
+  "note": "Explicit correspondence must be verified. Sorting independent collections does not create paired training data."
+}

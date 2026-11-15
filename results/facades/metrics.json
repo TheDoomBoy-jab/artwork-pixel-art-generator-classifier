@@ -1,0 +1,140 @@
+{
+  "dataset": "huggan/facades",
+  "selection": "first 256 paired rows; exploratory resplit of upstream training data",
+  "seed": 42,
+  "epochs": 20,
+  "counts": {
+    "train": 179,
+    "validation": 38,
+    "test": 39
+  },
+  "test_mae_0_1": 0.15726399421691895,
+  "test_psnr_db": 14.043190746882974,
+  "test_ssim": 0.24750736355781555,
+  "mean_training_image_baseline_mae_0_1": 0.16126374900341034,
+  "history": [
+    {
+      "epoch": 1,
+      "generator_loss": 36.80318168971849,
+      "discriminator_loss": 1.3262805575909822,
+      "validation_mae_0_1": 0.18589219450950623
+    },
+    {
+      "epoch": 2,
+      "generator_loss": 35.91039748813795,
+      "discriminator_loss": 1.099017726338428,
+      "validation_mae_0_1": 0.18834032118320465
+    },
+    {
+      "epoch": 3,
+      "generator_loss": 35.540241407311484,
+      "discriminator_loss": 0.8473529582438262,
+      "validation_mae_0_1": 0.1782553642988205
+    },
+    {
+      "epoch": 4,
+      "generator_loss": 35.028964167055875,
+      "discriminator_loss": 0.8290120000424592,
+      "validation_mae_0_1": 0.1737101674079895
+    },
+    {
+      "epoch": 5,
+      "generator_loss": 34.28845264600671,
+      "discriminator_loss": 0.9105923409047334,
+      "validation_mae_0_1": 0.17129763960838318
+    },
+    {
+      "epoch": 6,
+      "generator_loss": 33.94208020749299,
+      "discriminator_loss": 0.939529942429584,
+      "validation_mae_0_1": 0.17207613587379456
+    },
+    {
+      "epoch": 7,
+      "generator_loss": 34.07568848651388,
+      "discriminator_loss": 0.9197431362193563,
+      "validation_mae_0_1": 0.17397066950798035
+    },
+    {
+      "epoch": 8,
+      "generator_loss": 33.672972305961274,
+      "discriminator_loss": 0.8845545027566992,
+      "validation_mae_0_1": 0.17231029272079468
+    },
+    {
+      "epoch": 9,
+      "generator_loss": 33.54320418316385,
+      "discriminator_loss": 0.8787279750989831,
+      "validation_mae_0_1": 0.17127621173858643
+    },
+    {
+      "epoch": 10,
+      "generator_loss": 33.437462350596554,
+      "discriminator_loss": 0.938784886961398,
+      "validation_mae_0_1": 0.1815716028213501
+    },
+    {
+      "epoch": 11,
+      "generator_loss": 33.6238780643629,
+      "discriminator_loss": 0.885858813057775,
+      "validation_mae_0_1": 0.17078213393688202
+    },
+    {
+      "epoch": 12,
+      "generator_loss": 33.028204378874406,
+      "discriminator_loss": 0.863815989183343,
+      "validation_mae_0_1": 0.16999709606170654
+    },
+    {
+      "epoch": 13,
+      "generator_loss": 33.366803210714586,
+      "discriminator_loss": 0.8834328029466711,
+      "validation_mae_0_1": 0.17333008348941803
+    },
+    {
+      "epoch": 14,
+      "generator_loss": 32.977648776510485,
+      "discriminator_loss": 0.8270686761192654,
+      "validation_mae_0_1": 0.16987591981887817
+    },
+    {
+      "epoch": 15,
+      "generator_loss": 32.87905892081883,
+      "discriminator_loss": 0.8480033330295397,
+      "validation_mae_0_1": 0.16930165886878967
+    },
+    {
+      "epoch": 16,
+      "generator_loss": 32.81765805120053,
+      "discriminator_loss": 0.8401927118716033,
+      "validation_mae_0_1": 0.17441028356552124
+    },
+    {
+      "epoch": 17,
+      "generator_loss": 32.83450657388438,
+      "discriminator_loss": 0.8153254856234011,
+      "validation_mae_0_1": 0.16926732659339905
+    },
+    {
+      "epoch": 18,
+      "generator_loss": 32.55749553182851,
+      "discriminator_loss": 0.7904376180275626,
+      "validation_mae_0_1": 0.16906514763832092
+    },
+    {
+      "epoch": 19,
+      "generator_loss": 32.30279681993567,
+      "discriminator_loss": 0.8072893671367479,
+      "validation_mae_0_1": 0.17337431013584137
+    },
+    {
+      "epoch": 20,
+      "generator_loss": 32.37700155506963,
+      "discriminator_loss": 0.822723142478777,
+      "validation_mae_0_1": 0.16845767199993134
+    }
+  ],
+  "seconds": 27.925215416995343,
+  "note": "Exploratory paired-domain translation subset, not original pixel-art collection; no FID or perceptual realism claim",
+  "checkpoint_reload_verified": true
+}
